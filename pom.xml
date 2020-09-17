@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.icexelloss</groupId>
+    <groupId>com.github.shinanca</groupId>
     <artifactId>flatc</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
@@ -16,7 +16,7 @@
         forwards/backwards compatibility. This package contains
         platform-dependent FlatBuffers compiler binaries.
     </description>
-    <url>https://github.com/icexelloss/flatc</url>
+    <url>https://github.com/shinanca/flatc</url>
 
     <licenses>
         <license>
@@ -28,9 +28,9 @@
 
     <developers>
         <developer>
-            <id>icexelloss</id>
-            <name>Li Jin</name>
-            <email>ice.xelloss@gmail.com</email>
+            <id>shinanca</id>
+            <name>Maxim Sychevoi</name>
+            <email>max_rain@chooseme.ru</email>
             <roles>
                 <role>Project-Administrator</role>
                 <role>Developer</role>
@@ -39,9 +39,9 @@
     </developers>
 
     <scm>
-        <url>http://github.com/icexelloss/flatc</url>
-        <connection>scm:git:git://github.com/icexelloss/flatc.git</connection>
-        <developerConnection>scm:git:git://github.com/icexelloss/flatc.git</developerConnection>
+	<url>http://github.com/shinanca/flatc</url>
+	<connection>scm:git:git://github.com/shinanca/flatc.git</connection>
+	<developerConnection>scm:git:git://github.com/shinanca/flatc.git</developerConnection>
     </scm>
 
     <distributionManagement>
@@ -76,7 +76,9 @@
 
     <modules>
         <module>linux-x86_64</module>
+        <module>linux-ppc64le</module>
         <module>osx-x86_64</module>
+        <module>windows-x86_64</module>
     </modules>
 
     <profiles>

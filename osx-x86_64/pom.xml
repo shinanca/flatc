@@ -6,7 +6,7 @@
 
     <parent>
         <artifactId>flatc</artifactId>
-        <groupId>com.github.icexelloss</groupId>
+        <groupId>com.github.shinanca</groupId>
         <version>1.0</version>
     </parent>
     <name>FlatBuffers Compiler Binaries (OSX x86-64)</name>

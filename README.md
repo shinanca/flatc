@@ -10,7 +10,9 @@ This project provides a set of Maven artifacts containing platform-dependent
 `flatc` binaries. The list of supported platforms are as follows:
 
 - Linux (x86-64)
+- Linux (ppc64le)
 - OSX (x86-64)
+- Windows (x86-64)
 
 Usage
 =====
@@ -18,7 +20,7 @@ Usage
 You can use `flatc` artifacts in your Maven projects to compile your FlatBuffers
 schemas (`*.fbs`) as follows:
 
-1. Add [flatbuffers](http://github.com/vy/flatbuffers) to your
+1. Add [flatbuffers](http://github.com/shinanca/flatc) to your
    dependencies to provide `com.google.flatbuffers` package
    required by `flatc` generated Java files.
 
@@ -55,7 +57,7 @@ under `src` directory.)
 
     <!-- provides com.google.flatbuffers package -->
     <dependency>
-        <groupId>com.vlkan</groupId>
+        <groupId>com.github.shinanca</groupId>
         <artifactId>flatbuffers</artifactId>
         <version>${fbs.version}</version>
     </dependency>
@@ -92,7 +94,7 @@ under `src` directory.)
                     <configuration>
                         <artifactItems>
                             <artifactItem>
-                                <groupId>com.vlkan</groupId>
+                                <groupId>com.github.shinanca</groupId>
                                 <artifactId>flatc-${os.detected.classifier}</artifactId>
                                 <version>${fbs.version}</version>
                                 <type>exe</type>
