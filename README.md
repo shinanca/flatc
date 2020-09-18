@@ -1,3 +1,5 @@
+[![Maven Central](https://img.shields.io/maven-central/v/com.github.shinanca/flatc?label=Maven%20Central)](https://search.maven.org/search?q=g:com.github.shinanca)
+
 According to the [official FlatBuffers project](https://github.com/google/flatbuffers),
 
 > FlatBuffers is a serialization library for games and other memory
